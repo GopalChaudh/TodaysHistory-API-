@@ -24,7 +24,12 @@
 Run the server using:
 ```bash
 npm start
+``` 
+- OR
+```bash
+npm run start 
 ```
+
 
 ### Endpoints
 
@@ -57,7 +62,7 @@ npm start
       "title": "Event Title 2",
       "detail": "Event Description 2"
     },
-    // ... more events
+   
   ],
   "birthsAndDeaths": {
     "births": [
@@ -65,14 +70,13 @@ npm start
         "title": "Person Name",
         "detail": "Birth Description"
       },
-      // ... more births
+
     ],
     "deaths": [
       {
         "title": "Person Name",
         "detail": "Death Description"
       },
-      // ... more deaths
     ]
   }
 }
