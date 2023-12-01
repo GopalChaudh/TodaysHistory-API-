@@ -82,10 +82,10 @@ npm start
 
 - This application demonstrates web scraping techniques and basic usage of Express.js for fetching and rendering historical data.
 - Feel free to expand or integrate this functionality into your applications for historical data retrieval.
-```
+
 
 This `README.md` provides users with installation instructions, details about endpoints, usage examples with `curl` commands, and an example response format to demonstrate how to use the API endpoints. Adjust the endpoints, port number, and installation instructions as needed based on your specific setup and requirements.
-Absolutely! Endpoints are specific URLs that your web server exposes to perform various actions or retrieve data. In your Express.js application, you've defined two main endpoints:
+
 
 ### Endpoints Explanation
 
@@ -97,7 +97,7 @@ Absolutely! Endpoints are specific URLs that your web server exposes to perform 
 2. **`GET /api/On-This-Day/past/:month/:day`**
    - **Description:** This endpoint retrieves historical data for a specific date (specified by the `:month` and `:day` parameters) from Time and Date.
    - **Usage:** Pass the month and day as parameters to retrieve data for a particular date in the past.
-   - **Example:** Accessing this endpoint (e.g., `http://localhost:8000/api/On-This-Day/past/12/25`) will return historical events, births, and deaths for December 25th.
+   - **Example:** Accessing this endpoint (e.g., `http://localhost:8000/api/On-This-Day/past/december/25`) will return historical events, births, and deaths for December 25th.
 
 ### How to Use
 
@@ -112,7 +112,7 @@ To interact with these endpoints, you can use tools like `curl` for command-line
 
 - To fetch data for a specific date (e.g., December 25th):
   ```bash
-  curl http://localhost:8000/api/On-This-Day/past/12/25
+  curl http://localhost:8000/api/On-This-Day/past/december/2
   ```
 
 These `curl` commands will make GET requests to the respective endpoints, and the server will respond with JSON data containing historical events, births, and deaths for the requested date.
@@ -121,4 +121,4 @@ These `curl` commands will make GET requests to the respective endpoints, and th
 
 You can also access these endpoints using browser URLs or API testing tools like Postman. Simply enter the appropriate endpoint URL (`http://localhost:8000/api/On-This-Day/` or `http://localhost:8000/api/On-This-Day/past/:month/:day`) in the address bar or within your testing tool to retrieve the historical data as JSON responses.
 
-This setup allows users to fetch historical data either for today's date or for a specific date in the past by specifying the month and day in the URL parameters. Adjust the base URL and port number according to your actual deployment configuration.
+### thanks you for visiting this Repo . Have a Nice Day! (' @ ')

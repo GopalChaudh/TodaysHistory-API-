@@ -31,9 +31,7 @@ function scrapDataBirthAndDeaths($, element) {
 async function getHistory(month = null,day = null) {
 
     let response;
-    if(day == null){
-        day = 1;
-    }
+  
     if(month == null){
         response = await axios.get(`https://www.timeanddate.com/on-this-day/`);
     }else{
@@ -60,7 +58,7 @@ app.get('/', async (req, res) => {
 app.get('/past/:month/:day', async (req, res) => {
     let Month = req.params.month;
     let Day = Month == req.params.day;
-    const historyData = await getHistory((Month) ? Month : null, (Day)? Day : null);
+    const historyData = await getHistory((Month) ? Month : null, (Day)? Day : 1);
     res.json(historyData);
 });
 
