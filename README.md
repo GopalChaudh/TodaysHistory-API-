@@ -1,9 +1,9 @@
 
 
 # On-This-Day Scraper with Express.js
-```
-This application utilizes Express.js along with Axios and Cheerio to scrape historical events, births, and deaths data from the Time and Date website's "On This Day" section.
-```
+
+>This application utilizes Express.js along with Axios and Cheerio to scrape historical events, births, and deaths data from the Time and Date website's "On This Day" section.
+
 ## Installation
 
 1. Clone the repository:
