@@ -27,7 +27,7 @@ npm start
 ``` 
 - OR
 ```bash
-npm run start 
+npm run test 
 ```
 
 
@@ -46,7 +46,7 @@ npm run start
 - Description: Retrieves historical data for a specific date (month and day) from Time and Date.
 - Example:
   ```js
-  curl http://localhost:8000/api/On-This-Day/past/12/25
+  curl http://localhost:8000/api/On-This-Day/past/december/25
   ```
 
 ## Example Response
